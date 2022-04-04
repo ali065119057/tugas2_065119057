@@ -7,8 +7,8 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: 80.0,
-        leadingWidth: 60.0,
+        toolbarHeight: 60.0,
+        leadingWidth: 40.0,
         leading:
             IconButton(onPressed: () {}, icon: const Icon(Icons.arrow_back)),
         actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.edit))],
@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
         children: [
           SizedBox(
             width: double.infinity,
-            height: 250.0,
+            height: 300.0,
             child: Center(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -48,13 +48,13 @@ class Home extends StatelessWidget {
             ),
           ),
           Card(
-            margin: const EdgeInsets.symmetric(horizontal: 60.0, vertical: 5.0),
+            margin: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 5.0),
             color: const Color.fromARGB(255, 132, 22, 165),
             clipBehavior: Clip.antiAlias,
             elevation: 5.0,
             child: Padding(
               padding:
-                  const EdgeInsets.symmetric(vertical: 15.0, horizontal: 10.0),
+                  const EdgeInsets.symmetric(vertical: 5.0, horizontal: 5.0),
               child: Column(
                 children: <Widget>[
                   Row(
@@ -138,7 +138,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(60.0),
+            padding: const EdgeInsets.all(40.0),
             child: Column(
               children: <Widget>[
                 Row(
