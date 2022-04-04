@@ -1,4 +1,5 @@
 # tugas2_065119057
+![Screenshot from 2022-04-04 23-24-17](https://user-images.githubusercontent.com/83912779/161594208-d06b3bfe-bbc4-4da8-adb6-0d6db272d9bd.png)
 
 A new Flutter project.
 Tugas mengenai layout pada Flutter
