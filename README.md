@@ -3,8 +3,6 @@
 A new Flutter project.
 Tugas mengenai layout pada Flutter
 
-[Screenshot from 2022-04-04 23-24-17](https://user-images.githubusercontent.com/83912779/161589718-9ec29b26-1ce3-45fc-a3a5-a905fdeac1c8.png)
-
 ## Getting Started!
 This project is a starting point for a Flutter application.
 
