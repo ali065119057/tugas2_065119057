@@ -42,7 +42,7 @@ class Home extends StatelessWidget {
                     ),
                   ),
                   Text('ali.065119057@unpak.ac.id'),
-                  Text('08562591003')
+                  Text('0856259****')
                 ],
               ),
             ),
@@ -51,7 +51,8 @@ class Home extends StatelessWidget {
             margin: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 5.0),
             color: const Color.fromARGB(255, 132, 22, 165),
             clipBehavior: Clip.antiAlias,
-            elevation: 5.0,
+            elevation: 10.0,
+            shadowColor: Colors.black,
             child: Padding(
               padding:
                   const EdgeInsets.symmetric(vertical: 5.0, horizontal: 5.0),
@@ -68,12 +69,20 @@ class Home extends StatelessWidget {
                           textAlign: TextAlign.start,
                           style: TextStyle(color: Colors.white),
                         ),
+                        Spacer(
+                          flex: 10,
+                        ),
                         Text(
                           '065119057',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                               fontWeight: FontWeight.w500, color: Colors.white),
                         ),
+                        Spacer(
+                          flex: 1,
+                        ),
+                        //IconButton(onPressed: (){}, padding: const EdgeInsets.all(5),iconSize: 20, icon: const Icon(Icons.copy, color: Colors.white,)),
+                        Icon(Icons.copy,color: Colors.white),
                         //Icon(Icons.copy),
                       ]),
                   const Divider(
@@ -138,7 +147,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(40.0),
+            padding: const EdgeInsets.all(45.0),
             child: Column(
               children: <Widget>[
                 Row(
@@ -156,10 +165,12 @@ class Home extends StatelessWidget {
                             fontWeight: FontWeight.w500, color: Colors.black),
                       ),
                     ]),
+                const SizedBox(height: 5.0),
                 const Divider(
                   height: 5.0,
                   color: Color.fromARGB(255, 132, 22, 165),
                 ),
+                const SizedBox(height: 5.0),
                 Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.end,
@@ -175,10 +186,12 @@ class Home extends StatelessWidget {
                             fontWeight: FontWeight.w500, color: Colors.black),
                       ),
                     ]),
+                const SizedBox(height: 5.0),
                 const Divider(
                   height: 5.0,
                   color: Color.fromARGB(255, 132, 22, 165),
                 ),
+                const SizedBox(height: 5.0),
                 Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.end,
@@ -188,6 +201,7 @@ class Home extends StatelessWidget {
                           textAlign: TextAlign.start,
                           style: TextStyle(color: Colors.black)),
                     ]),
+                const SizedBox(height: 10.0),
                 Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.end,
@@ -197,10 +211,13 @@ class Home extends StatelessWidget {
                           textAlign: TextAlign.start,
                           style: TextStyle(color: Colors.black)),
                     ]),
+                const SizedBox(height: 5.0),
+                
                 const Divider(
                   height: 5.0,
                   color: Color.fromARGB(255, 132, 22, 165),
                 ),
+                const SizedBox(height: 5.0),
                 Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.end,
